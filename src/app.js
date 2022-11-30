@@ -16,4 +16,8 @@ app.use((req, res, next) => {
 
 app.use("/api/user/", userRoute);
 
+
+
+
+//to export the app
 module.exports = app;

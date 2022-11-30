@@ -5,7 +5,7 @@
   "main": "server.js",
   "scripts": {
     "build": "babel src -d lib",
-    "start": "babel src -d lib && nodemon lib/server.js",
+    "start": "babel src -d lib && node lib/server.js",
     "serve": "nodemon --exec babel-node src/server.js"
   },
   "author": "preethu",
